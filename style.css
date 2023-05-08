@@ -1,4 +1,25 @@
-header {
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.cabecalho {
     background-color: #351330;
     color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 24px 0;
+}
+
+.logo_retocando {
+    font-style: normal;
+    font-size: 45px;
+    line-height: 56px;
+}
+
+.cabecalho_lista_item {
+    display: inline-block;
+    margin: 0 16px;
+    font-size: 24px;
 }
